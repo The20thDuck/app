@@ -6,7 +6,7 @@ Created on Sat Apr 14 09:12:57 2018
 @author: Warren
 """
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 import os
 import requests
 site = Flask(__name__)
